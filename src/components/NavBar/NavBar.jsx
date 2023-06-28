@@ -25,7 +25,7 @@ const NavBar = () => {
             Ropa
           </Nav.Link>
           <Nav.Link as={NavLink} to="/categoria/4" activeClassName="activeLink">
-            Decoración
+            Decoración 
           </Nav.Link>
         </Nav>
       </Navbar.Collapse>
