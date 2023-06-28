@@ -1,0 +1,41 @@
+.contenedorItem {
+    text-align: center;
+    border: 1px solid #e3e1e1;
+    border-radius: 30px;
+    margin: 3rem;
+    margin-left: 190px;
+    margin-right: 190px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.contenedorItem p{
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+
+}
+img {
+    width: 300px;
+    border-radius: 30px;
+    margin-bottom: 20px;
+}
+
+.tarjeta {
+    cursor: pointer;
+    background: rgb(255, 255, 255);
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 255, .2);
+    transition: all .2s;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+   }
+   
+   .tarjeta:hover {
+    box-shadow: -12px 12px 2px -1px rgba(0, 0, 255, .2);
+   }
+   

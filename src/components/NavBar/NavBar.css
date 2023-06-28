@@ -1,0 +1,13 @@
+.navbarContainer {
+    font-family: 'Caprasimo', cursive;
+    color: antiquewhite;
+}
+
+.customNavbar {
+    background-color: bisque;
+}
+
+.imgAbu {
+    width: 180px;
+    border-radius:100%;
+}
