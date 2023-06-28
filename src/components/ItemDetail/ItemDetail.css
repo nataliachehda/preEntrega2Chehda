@@ -1,4 +1,5 @@
 .contenedorItem {
+    width: 900px;
     text-align: center;
     border: 1px solid #e3e1e1;
     border-radius: 30px;
@@ -12,30 +13,51 @@
     align-items: center;
     padding-top: 30px;
     padding-bottom: 30px;
-}
-.contenedorItem p{
+  }
+  
+  .contenedorItem p {
     margin-right: 100px;
     margin-left: 100px;
     margin-top: 50px;
     margin-bottom: 40px;
-
-}
-img {
+  }
+  
+  img {
     width: 300px;
     border-radius: 30px;
     margin-bottom: 20px;
-}
-
-.tarjeta {
+  }
+  
+  .tarjeta {
     cursor: pointer;
     background: rgb(255, 255, 255);
     border-radius: 5px;
-    border: 1px solid rgba(0, 0, 255, .2);
-    transition: all .2s;
-    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
-   }
-   
-   .tarjeta:hover {
-    box-shadow: -12px 12px 2px -1px rgba(0, 0, 255, .2);
-   }
-   
+    border: 1px solid rgba(0, 0, 255, 0.2);
+    transition: all 0.2s;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, 0.2);
+  }
+  
+  .tarjeta:hover {
+    box-shadow: -12px 12px 2px -1px rgba(0, 0, 255, 0.2);
+  }
+  
+  @media (max-width: 1295px) {
+    .contenedorItem {
+      width: 80%;
+      margin: 3rem auto;
+      padding: 20px;
+    }
+  
+    .contenedorItem p {
+      margin-right: 20px;
+      margin-left: 20px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+  
+    img {
+      width: 100%;
+      max-width: 300px;
+    }
+  }
+  
